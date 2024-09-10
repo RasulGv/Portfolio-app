@@ -1,0 +1,76 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin: 5rem 10.625rem;
+}
+
+.services-title{
+    position: relative;
+}
+
+.services-title h1{
+    padding: 0rem 1.875rem;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.services-format{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.25rem;
+    padding: 3.75rem;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+.services-format h3{
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.services-format h2{
+    font-size: 2.375rem;
+    font-weight: 800;
+    background: linear-gradient(270deg, #00B4DB 10%, #0083B0 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services-format  p{
+    color: white;
+    font-size: 1rem;
+    line-height: 2.3rem;
+    max-width: 100%;
+}
+
+.services-readmore{
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+    margin-top: 1.25rem;
+}
+
+.services-format:hover{
+    border: 2px solid lightgreen;
+    background-image: linear-gradient(45deg, #006400, #013220);
+    transform: scale(1.05);
+    transition: 0.4s;
+
+
+
+
+}
