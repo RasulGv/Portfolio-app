@@ -76,4 +76,36 @@ details {
   details[open] summary::marker {
     content: '▲ '; 
   }
+
+  @media (max-width:768px) {
+    .mywork{
+      gap: 3rem;
+      padding: 3.125rem 4.375rem;
+      align-items: start;
+      margin: 0;
+    }
+
+    .mywork-title h1{
+      padding: 0;
+      font-size: 3.125rem;
+      font-weight: 600;
+    }
+
+     .mywork-container{
+      grid-template-columns: 1fr 1fr;
+      gap: 1.875rem;
+     }
+
+     .mywork-container img{
+      width: 100%;
+      height: 100%;
+     }
+
+     .mywork-showmore{
+      padding: 1.25rem 2.5rem;
+      font-size: 1.125rem;
+      margin: 3.125rem auto;
+      cursor: pointer;
+     }
+  }
   

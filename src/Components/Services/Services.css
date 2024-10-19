@@ -74,3 +74,36 @@
 
 
 }
+
+@media (max-width:768px) {
+    .services{
+        align-items: start;
+        gap: 4rem;
+        margin: 1.25rem 4.375rem;
+    }
+
+    .services-title h1{
+      padding: 0;
+      font-size: 3.125rem;
+    }
+
+    .services-format{
+        gap: 1.25rem;
+        padding: 2rem;
+    }
+
+    .services-format h2{
+        font-size: 1.75rem;
+    }
+
+    .services-format p{
+        font-size: 1.125rem;
+        line-height: 2rem;
+        max-width: 18.75rem;
+    }
+
+    .services-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.875rem;
+    }
+}

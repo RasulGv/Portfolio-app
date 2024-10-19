@@ -3,10 +3,12 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 margin: 1.25rem 10.625rem;
+
 }
 
 .navbar img{
     width: 5rem;
+    border-radius: 50%;
 }
 
 .nav-menu{
@@ -17,6 +19,47 @@ margin: 1.25rem 10.625rem;
     font-size: 1.25rem;
     cursor: pointer;
 }
+
+.nav-menu li {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+  }
+
+  .nav-menu li p {
+    margin: 0;
+    padding: 10px 0;
+    transition: color 0.3s ease;
+    color: white;
+  }
+
+  .nav-menu li:hover p {
+    background: linear-gradient(to right, lightgreen, #00ffff); 
+    -webkit-background-clip: text;
+    color: transparent; 
+  }
+
+  .nav-menu p::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(to right, lightgreen, #00ffff);
+    transition: width 0.3s ease;
+  }
+
+  .nav-menu p:hover::after {
+    width: 100%;
+  }
+  
+  .nav-menu p.active::after {
+    width: 100%;
+  }
 
 .nav-connect{
     padding: 1.25rem 2.5rem ;
@@ -32,3 +75,73 @@ margin: 1.25rem 10.625rem;
     transform: scale(1.05);
 }
 
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-mob-open{
+  display: none;
+}
+
+.nav-mob-close{
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+      margin: 1.25rem 3.125rem;
+  }
+
+  .nav-connect {
+      display: none; 
+  }
+
+  .nav-mob-open {
+      display: block; 
+      position: fixed;
+      right: 1rem;
+      top: 1.25rem;
+      z-index: 3; 
+  }
+
+  .nav-mob-close {
+      display: block;
+      position: absolute;
+      top: 1rem;
+      right: 1.2rem; 
+      width: 1.875rem;
+      z-index: 4;
+  }
+
+  .nav-menu {
+      position: fixed;
+      flex-direction: column;
+      align-items: start;
+      top: 0;
+      gap: 1.875rem;
+      background: linear-gradient(150deg, #6A5ACD, #00BFFF);
+      backdrop-filter: blur(20px);
+      width: 22.438rem;
+      height: 100vh;
+      z-index: 2;
+      transition: right 0.5s ease;
+      right: -22rem; 
+  }
+
+  .nav-menu.open {
+      right: 0; 
+  }
+
+  .nav-menu.closed {
+      right: -23rem; 
+  }
+
+  .nav-menu li {
+      font-size: 1.9rem;
+      padding-left: 6.25rem;
+      flex-direction: row;
+      gap: 1.25rem;
+  }
+}

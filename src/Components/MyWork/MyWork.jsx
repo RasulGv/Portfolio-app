@@ -9,7 +9,7 @@ const MyWork = () => {
   };
 
   return (
-    <div className='mywork'>
+    <div id='work' className='mywork'>
       <div className='mywork-title'>
         <h1>My works</h1>
       </div>
