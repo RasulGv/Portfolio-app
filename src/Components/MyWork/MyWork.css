@@ -108,4 +108,44 @@ details {
       cursor: pointer;
      }
   }
+
+  @media (max-width: 480px) {
+    .mywork {
+        margin: 2rem 1rem;
+        gap: 3rem;
+    }
+
+    .mywork-title h1 {
+        font-size: 3rem;
+        padding: 0 1rem;
+    }
+
+    .mywork-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .mywork-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .mywork-showmore {
+        font-size: 1.125rem;
+        padding: 1.5rem 2.5rem;
+    }
+
+    details {
+        max-height: 2em;
+    }
+
+    details[open] {
+        max-height: 100vh;
+    }
+
+    details summary {
+        font-size: 1.125rem;
+    }
+}
+
   
