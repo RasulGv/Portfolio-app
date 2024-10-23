@@ -110,31 +110,31 @@
 
 @media (max-width: 480px) {
     .services {
-        margin: 1.25rem 2rem; /* Yan boşlukları daraltıyoruz */
-        gap: 3rem; /* Hizalama boşluklarını küçültüyoruz */
+        margin: 1.25rem 2rem; 
+        gap: 3rem; 
     }
 
     .services-title h1 {
-        font-size: 2.5rem; /* Başlık boyutunu küçültüyoruz */
+        font-size: 2.5rem; 
     }
 
     .services-format {
-        padding: 1.5rem; /* Hizmet formatı kutularının padding'ini küçültüyoruz */
-        gap: 1rem; /* İçerik boşluğunu küçültüyoruz */
+        padding: 1.5rem; 
+        gap: 1rem;
     }
 
     .services-format h2 {
-        font-size: 1.5rem; /* Başlık boyutunu küçültüyoruz */
+        font-size: 1.5rem; 
     }
 
     .services-format p {
-        font-size: 1rem; /* Paragraf boyutunu koruyoruz */
-        line-height: 1.8rem; /* Satır yüksekliğini küçültüyoruz */
-        max-width: 15rem; /* Paragraf genişliğini küçültüyoruz */
+        font-size: 1rem; 
+        line-height: 1.8rem; 
+        max-width: 15rem; 
     }
 
     .services-container {
-        grid-template-columns: 1fr 1fr; /* Tek sütuna geçiş yapıyoruz */
-        gap: 1.5rem; /* Kutular arasındaki boşluğu küçültüyoruz */
+        grid-template-columns: 1fr 1fr; 
+        gap: 1.5rem; 
     }
 }

@@ -159,29 +159,29 @@ margin: 1.25rem 10.625rem;
       gap: 1.875rem;
       background: linear-gradient(150deg, #6A5ACD, #00BFFF);
       backdrop-filter: blur(20px);
-      width: 18.75rem; /* Menüyü biraz daha daralttık */
+      width: 18.75rem; 
       height: 100vh;
       z-index: 2;
       transition: right 0.5s ease;
-      right: -19rem; /* Menünün ekran dışı başlangıç pozisyonu */
+      right: -19rem; 
   }
 
   .nav-menu.open {
-      right: 0; /* Menü açıldığında görünür hale geliyor */
+      right: 0;
   }
 
   .nav-menu.closed {
-      right: -20rem; /* Menü kapandığında ekran dışına çıkıyor */
+      right: -20rem; 
   }
 
   .nav-menu li {
-      font-size: 1.5rem; /* Mobilde font boyutunu küçültüyoruz */
-      padding-left: 3.75rem; /* Menüler arasındaki boşluğu azaltıyoruz */
+      font-size: 1.5rem; 
+      padding-left: 3.75rem; 
       flex-direction: row;
       gap: 1rem;
   }
 
   .nav-connect {
-      padding: 1rem 2rem; /* Butonları daha küçük hale getiriyoruz */
+      padding: 1rem 2rem; 
       font-size: 1.25rem;
   }}
