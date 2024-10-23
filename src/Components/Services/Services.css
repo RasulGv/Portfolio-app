@@ -107,3 +107,34 @@
         gap: 1.875rem;
     }
 }
+
+@media (max-width: 480px) {
+    .services {
+        margin: 1.25rem 2rem; /* Yan boşlukları daraltıyoruz */
+        gap: 3rem; /* Hizalama boşluklarını küçültüyoruz */
+    }
+
+    .services-title h1 {
+        font-size: 2.5rem; /* Başlık boyutunu küçültüyoruz */
+    }
+
+    .services-format {
+        padding: 1.5rem; /* Hizmet formatı kutularının padding'ini küçültüyoruz */
+        gap: 1rem; /* İçerik boşluğunu küçültüyoruz */
+    }
+
+    .services-format h2 {
+        font-size: 1.5rem; /* Başlık boyutunu küçültüyoruz */
+    }
+
+    .services-format p {
+        font-size: 1rem; /* Paragraf boyutunu koruyoruz */
+        line-height: 1.8rem; /* Satır yüksekliğini küçültüyoruz */
+        max-width: 15rem; /* Paragraf genişliğini küçültüyoruz */
+    }
+
+    .services-container {
+        grid-template-columns: 1fr 1fr; /* Tek sütuna geçiş yapıyoruz */
+        gap: 1.5rem; /* Kutular arasındaki boşluğu küçültüyoruz */
+    }
+}
