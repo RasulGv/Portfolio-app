@@ -1,0 +1,52 @@
+{
+  "Home": "Home",
+  "About me": "About me",
+  "Services": "Services",
+  "Portfolio": "Portfolio",
+  "Contact": "Contact",
+  "Contact with me": "Contact with me",
+  
+  "about": {
+    "title": "About me",
+    "paragraph1": "Frontend development is not just a job for me, it's a passion. This passion inspires me to learn new things and become better every day. I'm at the forefront of technology, creating experiences that users expect and love.",
+    "paragraph2": "Being a frontend developer requires more than just writing code. It's about creating a visually appealing and functional experience for every user. This work is a craft where my creativity and technical knowledge work in harmony.",
+    "skills": {
+      "html_css": "HTML5 & CSS",
+      "react": "React JS",
+      "javascript": "Javascript",
+      "tailwind_bootstrap": "Tailwind Css & Bootstrap",
+      "github": "Github",
+      "redux": "Redux toolkit",
+      "qgis": "QGis"
+    },
+    "achievements": {
+      "engineering_years": "+4 Years of experience in environmental engineering",
+      "mapping_months": "7 Month of experience in mapping operator",
+      "projects": "Projects"
+    }
+  },
+
+  
+    "contact_title": "Your Next Project Starts Here",
+    "ready_for_contact": "Ready for Contact?",
+    "contact_description": "I am ready to create a beautiful and functional web experience for you...",
+    "your_name": "Your Name",
+    "email": "Email",
+    "message_placeholder": "Write your message here",
+    "submit": "Submit",
+
+    
+      "Home": "Home",
+      "Contact with me": "Contact with me",
+      "My cv": "My CV",
+      "hero": {
+        "intro": "I'm Rasul Garavaliyev, junior frontend developer based in Azerbaijan",
+        "description": "I specialize in building dynamic and user-friendly interfaces using modern web technologies. I am proficient in HTML, CSS, and JavaScript, with strong expertise in frameworks like React."
+      },
+
+      "footer_contact_message": "You can click on the number and contact via WhatsApp or contact by clicking on the icon",
+      "footer_rights_reserved": "All rights reserved.",
+      "footer_terms": "Terms of Service",
+      "footer_privacy": "Privacy Policy",
+      "footer_connect": "Connect with me" 
+}

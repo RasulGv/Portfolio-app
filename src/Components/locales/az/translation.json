@@ -1,0 +1,62 @@
+{
+  "Home": "Ana səhifə",
+  "About me": "Haqqımda",
+  "Services": "Xidmətlər",
+  "Portfolio": "Portfolio",
+  "Contact": "Əlaqə",
+  "Contact with me": "Mənimlə əlaqə",
+  
+  "about": {
+    "title": "Haqqımda",
+    "paragraph1": "Frontend inkişafı mənim üçün sadəcə bir iş deyil, bu, bir həvəsdir. Bu həvəs mənə yeni şeylər öyrənməyə və hər gün daha yaxşı olmağa ilham verir. Mən texnologiyanın ön sırasındayam və istifadəçilərin gözlədikləri və sevdikləri təcrübələr yaradıram.",
+    "paragraph2": "Frontend inkişafçı olmaq yalnız kod yazmaq deyil. Hər bir istifadəçi üçün vizual olaraq cəlbedici və funksional təcrübə yaratmaqdır. Bu iş mənim yaradıcılığım və texniki biliyim arasında harmoniya qurduğum bir sənətdir.",
+    "skills": {
+      "html_css": "HTML5 & CSS",
+      "react": "React JS",
+      "javascript": "Javascript",
+      "tailwind_bootstrap": "Tailwind Css & Bootstrap",
+      "github": "Github",
+      "redux": "Redux toolkit",
+      "qgis": "QGis"
+    },
+    "achievements": {
+      "engineering_years": "+4 il ekoloji mühəndislik sahəsində təcrübə",
+      "mapping_months": "7 ay xəritəçəkmə operatoru təcrübəsi",
+      "projects": "Layihə"
+    }
+  },
+  
+  "contact_title": "Layihəniz Burada Başlayır",
+  "ready_for_contact": "Əlaqəyə Hazırsınız?",
+  "contact_description": "Mən sizin üçün gözəl və funksional bir veb təcrübə yaratmağa hazıram...",
+  "your_name": "Adınız",
+  "email": "Email",
+  "message_placeholder": "Mesajınızı bura yazın",
+  "submit": "Göndər",
+
+  "My works": "İşlərim",
+  "Show More": "Daha çox göstər",
+
+  
+    "Home": "Ana səhifə",
+    "Contact with me": "Mənimlə əlaqə",
+    "My cv": "Mənim CV",
+    "hero": {
+      "intro": "Mən Rasul Garavaliyev, Azərbaycan əsilli junior frontend developerəm",
+      "description": "Dinamik və istifadəçi dostu interfeyslər qurmaq üzrə ixtisaslaşmışam. HTML, CSS və JavaScript-də təcrübəliyəm və React kimi çərçivələrdə güclü biliklərim var."
+    },
+
+    
+      "footer_contact_message": "Nömrənin üzərinə klikləyərək whatsapp vasitəsilə əlaqə və ya icona klikləyərək əlaqə saxlaya bilərsiniz",
+      "footer_rights_reserved": "Bütün hüquqlar qorunur.",
+      "footer_terms": "Xidmət Şərtləri",
+      "footer_privacy": "Məxfilik Siyasəti",
+      "footer_connect": "Əlaqə"
+    
+    
+
+  
+  
+}
+
+

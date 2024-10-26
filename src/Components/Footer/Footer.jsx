@@ -1,35 +1,35 @@
-import React from 'react'
-import './Footer.css'
-import logo from '../../assets/logo.jpg'
-import { FaUser } from "react-icons/fa";
+import React from 'react';
+import './Footer.css';
+import logo from '../../assets/logo.jpg';
+import { FaLinkedin } from "react-icons/fa";
+import { useTranslation } from 'react-i18next';
 
 const Footer = () => {
-  return (
-  <div className='footer'>
-    <div className='footer-top'>
-      <div className='footer-top-left'>
-       <img src={logo} alt="logo" />
-       <p>You can click on the number and contact via whatsapp </p>
-      </div>
-      <div className='footer-top-right'>
-         <div className='footer-email-input'>
-         <FaUser />
-         <input type="email" placeholder='Enter your email' />
-         </div>
-         <button type='subscribe' className='footer-subscribe'>Subscribe</button>
-      </div>
-    </div>
-    <hr />
-    <div className='footer-bottom'>
-        <p className='footer-bottom-left'>© 2024 Rasul Garavaliyev. All rights reserved.</p>
-        <div className='footer-bottom-right'>
-            <p>Term of Services</p>
-            <p>Privacy Policy</p>
-            <p>Connect with me</p>
-        </div>
-    </div>
-  </div>
-  )
-}
+  const { t } = useTranslation();
 
-export default Footer
+  return (
+    <div className='footer'>
+      <div className='footer-top'>
+        <div className='footer-top-left'>
+          <img src={logo} alt="logo" />
+          <p>{t('footer_contact_message')}</p>
+        </div>
+        <div className='footer-top-right'>
+          <a href="https://www.linkedin.com/in/rasul-garavaliyev-90183620b/" target="_blank" rel="noopener noreferrer">
+            <FaLinkedin className='footer-linkedin-icon' />
+          </a>
+        </div>
+      </div>
+      <hr />
+      <div className='footer-bottom'>
+        <p className='footer-bottom-left'>© 2024 Rasul Garavaliyev. {t('footer_rights_reserved')}</p>
+        <div className='footer-bottom-right'>
+          <p>{t('footer_terms')}</p>
+          <p>{t('footer_privacy')}</p>
+          <p>{t('footer_connect')}</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+export default Footer;

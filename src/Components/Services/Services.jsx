@@ -1,7 +1,7 @@
 import React from 'react'
 import './Services.css'
 import data from '../../assets/Data'
-// import { FaArrowRight } from "react-icons/fa";
+
 
 const Services = () => {
   return (
