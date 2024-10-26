@@ -11,7 +11,7 @@ const MyWork = () => {
   };
 
   return (
-    <div id='work' className='mywork'>
+    <div id='portfolio' className='mywork'>
       <div className='mywork-title'>
         <h1>{t('My works')}</h1> 
       </div>

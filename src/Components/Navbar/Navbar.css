@@ -103,14 +103,27 @@ margin: 1.25rem 6rem;
     color: white;
 }
 
-.nav-mob-open{
-  display: none;
+.nav-mob-open, 
+.nav-mob-close {
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  position: fixed;
+  right: 1rem;
+  top: 1.25rem;
+  z-index: 3;
+  display: none; 
 }
 
-.nav-mob-close{
-  display: none;
+
+.nav-menu.open + .nav-mob-close {
+  display: block;
 }
 
+
+.nav-menu.closed + .nav-mob-open {
+  display: block;
+}
 
 @media (max-width: 768px) {
   .navbar {
