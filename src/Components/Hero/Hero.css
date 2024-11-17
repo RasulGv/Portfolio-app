@@ -87,6 +87,11 @@ margin-top: 9.375rem;
     cursor: pointer;
 }
 
+.hero-cv a{
+    text-decoration: none;
+    color: white;
+}
+
 .hero-contact:hover{
     border: 2px solid white;
 }

@@ -19,7 +19,13 @@ const Hero = () => {
           </AnchorLink>
         </div>
         <div className="hero-cv">
-          {t('My cv')}
+          <a 
+            href="https://docs.google.com/document/d/16ktlTajjwoSANR2IEHRqY8w8KpzwWpXv/edit" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            {t('My cv')}
+          </a>
         </div>
       </div>
     </div>
